@@ -1,0 +1,24 @@
+{
+  "features": [
+    "Age",
+    "BMI",
+    "Length_of_cycle",
+    "Length_of_menses",
+    "Length_of_Leutal_Phase",
+    "Estimated_day_of_ovulation",
+    "Mean_of_length_of_cycle",
+    "height_cm",
+    "weight_kg",
+    "number_of_peak"
+  ],
+  "classes": [
+    "Normal Profile",
+    "PCOD_Positive",
+    "PCOS_Positive"
+  ],
+  "accuracy": 0.8105263157894737,
+  "balanced_accuracy": 0.8277208885904539,
+  "macro_f1": 0.8105720744218395,
+  "cv_mean": 0.798280701754386,
+  "training_date": "2026-02-27T18:07:11.555812"
+}

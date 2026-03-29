@@ -1,0 +1,23 @@
+{
+  "features": [
+    "Age",
+    "BMI",
+    "Length_of_cycle",
+    "Length_of_menses",
+    "Length_of_Leutal_Phase",
+    "Estimated_day_of_ovulation",
+    "Mean_of_length_of_cycle",
+    "height_cm",
+    "number_of_peak",
+    "weight_kg",
+    "Unusual_Bleeding",
+    "bmi_cycle_interaction"
+  ],
+  "label_classes": [
+    "Normal Profile",
+    "PCOD_Positive",
+    "PCOS_Positive"
+  ],
+  "training_date": "2026-02-27T16:15:22.190849",
+  "pandas_version": "2.3.3"
+}

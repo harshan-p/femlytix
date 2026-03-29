@@ -1,0 +1,47 @@
+{
+  "model": "Stacking(XGB + RF + ET) \u2192 LogReg [Calibrated]",
+  "test_accuracy": 0.8211,
+  "macro_f1": 0.8231,
+  "roc_auc_ovr": 0.9026,
+  "cv_mean_f1": 0.8326,
+  "cv_mean_acc": 0.8276,
+  "decision_thresholds": {
+    "Normal Profile": 1.0,
+    "PCOD_Positive": 0.6,
+    "PCOS_Positive": 0.53
+  },
+  "threshold_target_recall": 0.8,
+  "threshold_rule": "predict = argmax(prob / threshold)",
+  "uncertainty_threshold": 0.55,
+  "prob_clip_range": [
+    0.05,
+    0.95
+  ],
+  "smote_conservative_ratio": 0.95,
+  "class_weights": {
+    "0": 1.0,
+    "1": 1.8,
+    "2": 2.0
+  },
+  "classes": [
+    "Normal Profile",
+    "PCOD_Positive",
+    "PCOS_Positive"
+  ],
+  "features": [
+    "Age",
+    "BMI",
+    "Length_of_cycle",
+    "Estimated_day_of_ovulation",
+    "Length_of_Leutal_Phase",
+    "Length_of_menses",
+    "number_of_peak",
+    "height_cm",
+    "weight_kg",
+    "Mean_of_length_of_cycle",
+    "Unusual_Bleeding"
+  ],
+  "n_features": 11,
+  "training_date": "2026-03-28T09:42:37.205118",
+  "notes": "KNNImputer(k=7) + RobustScaler; custom class weights {Normal:1.0, PCOD:1.8, PCOS:1.8}; conservative BorderlineSMOTE (90 %); OOF-based threshold optimisation for PCOS/PCOD recall; probability clipping [0.05, 0.95]; uncertainty threshold 0.55."
+}

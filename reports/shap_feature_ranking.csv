@@ -1,0 +1,12 @@
+feature,mean_shap,normalised_importance,rank
+number_of_peak,0.52350587,0.15535206,1
+Estimated_day_of_ovulation,0.47910574,0.14217618,2
+Length_of_menses,0.44078824,0.13080534,3
+BMI,0.35249996,0.1046055,4
+Length_of_cycle,0.34256482,0.10165722,5
+height_cm,0.2869404,0.08515049,6
+Age,0.28177088,0.08361642,7
+Length_of_Leutal_Phase,0.21860965,0.06487312,8
+weight_kg,0.21002105,0.062324427,9
+Unusual_Bleeding,0.14584821,0.04328093,10
+Mean_of_length_of_cycle,0.08814831,0.026158296,11
