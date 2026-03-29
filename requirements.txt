@@ -9,3 +9,6 @@ plotly
 bcrypt
 joblib
 reportlab
+fastapi
+uvicorn
+pyjwt
